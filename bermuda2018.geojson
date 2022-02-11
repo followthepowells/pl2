@@ -123,12 +123,27 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "marker-color": "#0475fb",
+        "marker-size": "medium",
+        "marker-symbol": "swimming"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -64.71218705177307,
           32.35389470037824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.83375549316406,
+          32.329207492279274
         ]
       }
     }
