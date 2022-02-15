@@ -11,3 +11,4 @@ Week4 Checklist:
 - [X] ArcGIS Developer(https://developers.arcgis.com/layers/95a99980a9ee497091e295f9e08ee1cc/)
 - [X] ArcGIS Online(https://fleming.maps.arcgis.com/home/item.html?id=95a99980a9ee497091e295f9e08ee1cc)
 - [X] ArcGIS Server(https://services1.arcgis.com/pMeXRvgWClLJZr3s/ArcGIS/rest/services/tree_survey/FeatureServer) 
+- [X] Create Testing Token(https://developers.arcgis.com/applications/)
