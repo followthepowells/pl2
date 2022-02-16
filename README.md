@@ -16,5 +16,5 @@ Week4 Checklist:
 - [X] Complete Tutorials:
       [X] Display a map
       [X] Add a point, line, and polygon
-      [X] Display a web map()
+      [X] Display a web map(https://followthepowells.github.io/pl2/display_web_map.html)
       
