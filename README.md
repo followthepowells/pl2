@@ -12,7 +12,8 @@ Week4 Checklist:
 - [X] ArcGIS Online(https://fleming.maps.arcgis.com/home/item.html?id=95a99980a9ee497091e295f9e08ee1cc)
 - [X] ArcGIS Server(https://services1.arcgis.com/pMeXRvgWClLJZr3s/ArcGIS/rest/services/tree_survey/FeatureServer) 
 - [X] Create Testing Token(https://developers.arcgis.com/applications/87544ab5046c48e6ae4cacf3e2daee63/)
-- [X] Create an API Key in https://developers.arcgis.com/dashboard/
+- [X] Create an API Key(https://developers.arcgis.com/dashboard/)
+
 
 - [X] Complete Tutorials:
 - [X] Display a map(https://followthepowells.github.io/pl2/display_map.html)
