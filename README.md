@@ -14,7 +14,7 @@ Week4 Checklist:
 - [X] Create Testing Token(https://developers.arcgis.com/applications/87544ab5046c48e6ae4cacf3e2daee63/)
 - [X] Create an API Key in https://developers.arcgis.com/dashboard/
 - [X] Complete Tutorials:
-      - [X] Display a map(https://followthepowells.github.io/pl2/display_map.html)
-      - [X] Add a point, line, and polygon(https://followthepowells.github.io/pl2/add_point_line_polygon.html)
-      - [X] Display a web map(https://followthepowells.github.io/pl2/display_web_map.html)
+- [X] Display a map(https://followthepowells.github.io/pl2/display_map.html)
+- [X] Add a point, line, and polygon(https://followthepowells.github.io/pl2/add_point_line_polygon.html)
+- [X] Display a web map(https://followthepowells.github.io/pl2/display_web_map.html)
       
