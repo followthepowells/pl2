@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>ArcGIS API for JavaScript Tutorials: Add a point, line, and polygon</title>
+  <style>
+    html, body, #viewDiv {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+  <link rel="stylesheet" href="https://js.arcgis.com/4.22/esri/themes/light/main.css">
+  <script src="https://js.arcgis.com/4.22/"></script>
+  <script>
+
+  require([
+    "esri/config",
+    "esri/Map",
+    "esri/views/MapView",
+
+    "esri/Graphic",
+    "esri/layers/GraphicsLayer"
+
+    ], function(esriConfig,Map, MapView, Graphic, GraphicsLayer) {
+
+   esriConfig.apiKey = "AAPKff8b23b0dc1040e3bb330c65d236f928LFn1bDaLCbjD6sRAAUNi4p3KDFJ4W-I5bWm9aIKHdhmNNaGFw8h4Y5ulkzfU2rwj";
+
+  const map = new Map({
+    basemap: "arcgis-topographic" //Basemap layer service
+  });
+
+  const view = new MapView({
+    map: map,
+    center: [-79.29494976997375,43.669718640488995], //Longitude, latitude
+    zoom: 15,
+    container: "viewDiv"
+ });
+
+ const graphicsLayer = new GraphicsLayer();
+ map.add(graphicsLayer);
+
+ const point = { //Create a point
+    type: "point",
+    longitude: -79.29486662149428,
+    latitude: 43.66712075274065   
+ };
+ const simpleMarkerSymbol = {
+    type: "simple-marker",
+    color: [228, 105, 187],  // Pink for Valentine's Day xoxoxo
+    outline: {
+        color: [255, 255, 255], // White
+        width: 1
+    }
+ };
+
+ const pointGraphic = new Graphic({
+    geometry: point,
+    symbol: simpleMarkerSymbol
+ });
+ graphicsLayer.add(pointGraphic);
+
+    // Create a line geometry
+ const polyline = {
+    type: "polyline",
+    paths: [
+        [
+            -79.29725646972656,
+            43.66976520354537
+          ],
+          [
+            -79.29489612579346,
+            43.67203122863185
+          ],
+          [
+            -79.29249286651611,
+            43.67016874852075
+          ],
+          [
+            -79.29322242736816,
+            43.6677784810306
+          ],
+          [
+            -79.29605484008788,
+            43.66538811835199
+          ],
+          [
+            -79.30013179779053,
+            43.66706448656411
+          ],
+          [
+            -79.30159091949463,
+            43.66883393555448
+          ],
+          [
+            -79.30004596710205,
+            43.67106895445775
+          ],
+          [
+            -79.29682731628418,
+            43.669485824665266
+          ]
+    ]
+ };
+ const simpleLineSymbol = {
+    type: "simple-line",
+    color: [228, 105, 187],  // Pink 
+    width: 1
+ };
+
+ const popupTemplate = {
+    title: "{Name}",
+    content: "{Description}"
+ }
+ const attributes = {
+    Name: "Graphic",
+    Description: "Where we first met <3"
+ }
+ const polylineGraphic = new Graphic({
+    geometry: polyline,
+    symbol: simpleLineSymbol,
+   attributes: attributes,
+    popupTemplate: popupTemplate
+ });
+ graphicsLayer.add(polylineGraphic);
+
+ });
+</script>
+</head>
+<body>
+  <div id="viewDiv"></div>
+</body>
+</html>
