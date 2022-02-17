@@ -8,6 +8,7 @@ Week3 Checklist:
 
 
 Week4 Checklist:
+- [X] My personal ArGIS Online Page(https://jazbp9pse9ez2qzk.maps.arcgis.com/home/organization.html#overview)
 - [X] Record the three different links to your hosted feature layer item and its data (Be sure to not include the token). Store these (again, without a security token) in a web page or MarkDown document on your GitHub for this weeks' activities.
 - [X] ArcGIS Developer(https://developers.arcgis.com/layers/95a99980a9ee497091e295f9e08ee1cc/)
 - [X] ArcGIS Online(https://fleming.maps.arcgis.com/home/item.html?id=95a99980a9ee497091e295f9e08ee1cc)
