@@ -1,6 +1,7 @@
 # pl2
 
 Week3 Checklist:
+- [X] Complete this Web Course to learn about ArcGIS Online Data(https://followthepowells.github.io/pl2/Janelli_Powell_Transcript_02112022.pdf) 
 - [X] Discover JSON and importing data into Web Maps 
 - [X] GeoJSON pointing to GitHUB(https://followthepowells.github.io/pl2/bermuda2018.geojson)
 - [X] An ArcGIS Online web map with your GeoJSON file referenced within it(https://fleming.maps.arcgis.com/apps/mapviewer/index.html?webmap=c3392c6b887249709861b6cac98ceff1)
